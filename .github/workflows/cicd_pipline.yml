@@ -1,14 +1,11 @@
-name: CI yair
+name: CI Pipeline
 
 on:
   push:
     branches: [main]
 
-
 env:
   IMAGE_NAME: kuyu12/mymodel  # Define an environment variable for the Docker image name
-
-
 
 jobs:
   test:
